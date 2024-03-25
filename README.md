@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top">Rack Tracker</a>
 
-## Getting Started
+<!-- ABOUT THE PROJECT -->
 
-First, run the development server:
+## About The Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    This project is to mainly focus on getting use to next, react, sass and javascript after a bit of a break.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Rack Tracker is a idea I've had in my head for awhile I am just now attempting build it, and get some of my co-workers to use it while giving me some helpfull feed back.
+This web app my be split into multiple app's later in the future. The main goal is to track and give accurate wait times and rack
+down time info.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Here's why:
 
-## Learn More
+- To get a better understanding of next.js.
+- Getting use to using scss/sass with next.js
+- Creating a tool that will help me and other drivers do their job's in a more timely manner.
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built With
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- javascript
+- React.js
+- Next.js
+- scss
+-
 
-## Deploy on Vercel
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- ROADMAP -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Roadmap
+
+- [ ] Finsish frontend design and styling
+- [ ] Add finishing touches to the styles
+- [ ]
+- [ ] Add a google auth
+- [ ]
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Willie morris
+
+Project Link:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments
+
+- sass docs
+- Next13 docs
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
