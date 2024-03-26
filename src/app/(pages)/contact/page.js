@@ -1,5 +1,7 @@
 import React from "react";
 import styles from '../../../styles/base.module.scss'
+import Image from "next/image";
+import FuelArms from '../../../../public/images/FuelArms.jpg'
 
 export default function Contact() {
 
@@ -9,6 +11,10 @@ export default function Contact() {
                 <h1>
                     About
                 </h1>
+                <Image
+                    alt="Fuel loading arms"
+                    src={FuelArms}
+                />
                 <p>
                     I’ve been a truck driver for about 10 years and fuel driver for about 5 years.
                     One of the major issues I have seen with my tenure is the unreliable information about rack status. 
@@ -24,7 +30,7 @@ export default function Contact() {
                 <h2>
                     Contact
                 </h2>
-                <ul>
+                <ul className={styles.removeDot}>
                     <li>
                         Email: willie.morris@gmail.com
                     </li>

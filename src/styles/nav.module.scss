@@ -1,1 +1,27 @@
 @import 'vars';
+
+.navtitle {
+    color: $lighttext;
+    font-size: 1.5em;
+    margin: auto .8em auto .2em;
+}
+.navbase {
+    background-color: $secodary;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-radius: 0em 0em .8em .8em;
+    padding: 0em;
+    height: 3.5em;
+    
+}
+.navwrapper{
+    font-size: .8em;
+    margin: auto  .3em auto auto;
+}
+.navbuttons {
+    color: $lighttext;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: auto auto auto .5em;
+}
