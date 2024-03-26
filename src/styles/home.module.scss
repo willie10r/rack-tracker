@@ -1,18 +1,33 @@
 @import 'vars';
 
-.motoWrapper {
+.mottoWrapper {
+    display: block;
     text-align: center;
     font-weight: bolder;
-    margin: auto 1em auto 1em;
+    margin: 5em 1em auto 1em;
 }
 .firstSection {
     text-align: center;
     margin: auto 1em auto 1em;
 }
 .mainImages {
+    display: block;
    width: 20em;
    height: 10em; 
+   margin: 1em auto;
+   
 }
-    .firstSectionText {
-        text-align: center;
-    }
+.SectionText {
+    text-align: center;
+    margin: auto 1em 2em 1em;
+}
+.buttonApp {
+    display: block;
+    margin: auto;
+    height: 3em;
+    width: 15em;
+    border-radius: .5em;
+    background-color: $secodary;
+    color: $lighttext;
+    font-weight: bolder;
+}

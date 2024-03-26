@@ -7,7 +7,7 @@ import TruckatFuelRack from '../../../public/images/TruckatFuelRack.jpg'
 export default function Home() {
   return (
     <main>
-      <section className={styleshome.motoWrapper}>
+      <section className={styleshome.mottoWrapper}>
         <h1>
           Rack Tracker
           </h1>
@@ -21,7 +21,7 @@ export default function Home() {
           src={FuelDriver}
           className={styleshome.mainImages}
         />
-        <p>
+        <p className={styleshome.SectionText}>
           Rack Tracker will give your fleet of drivers a way to communicate with other drivers and dispatch
           on the condition and status of the fuel racks. No longer will you have to wonder if a rack is busy
           or down. They will not have to call each other one by one or hope dispatch relays the information in a 
@@ -29,7 +29,7 @@ export default function Home() {
           to see. The more drivers use the app the more up to date and accurate your fleet can stay.
         </p>
       </section>
-      <button>
+      <button className={styleshome.buttonApp}>
         Rack Tracker app
       </button>
       <section>
@@ -38,7 +38,7 @@ export default function Home() {
           src={TruckatFuelRack}
           className={styleshome.mainImages}
         />
-        <p>
+        <p className={styleshome.SectionText}>
           Truck fueling racks are notorisly unreliable may it be mechanicale breaks or long lines due to
           the flux of fuel prices. A few times a year racks do meter proofing and it slows down the flow of
           traffic in and out of the plant. Knowing when the proofing occurs can help drivers be more productive.

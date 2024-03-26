@@ -1,5 +1,6 @@
 import React from "react";
 import styles from '../../../styles/base.module.scss'
+import stylescontact from '../../../styles/contact.module.scss'
 import Image from "next/image";
 import FuelArms from '../../../../public/images/FuelArms.jpg'
 
@@ -14,8 +15,9 @@ export default function Contact() {
                 <Image
                     alt="Fuel loading arms"
                     src={FuelArms}
+                    className={stylescontact.mainImages}
                 />
-                <p>
+                <p className={stylescontact.textSection}>
                     I’ve been a truck driver for about 10 years and fuel driver for about 5 years.
                     One of the major issues I have seen with my tenure is the unreliable information about rack status. 
                     You dont know when or for how long a fuel rack has been down for. You dont know how long lines are of if there 
@@ -26,7 +28,7 @@ export default function Contact() {
                     The app is going to focus on simplicity and ease of use, sothe learning cure will be as low as possible. 
                 </p>
             </section>
-            <section>
+            <section className={stylescontact.contactSection}>
                 <h2>
                     Contact
                 </h2>
