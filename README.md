@@ -4,7 +4,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Rack Tracker site]](https://example.com)
 
     This project is to mainly focus on getting use to next, react, sass and javascript after a bit of a break.
 
