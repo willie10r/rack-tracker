@@ -17,6 +17,7 @@ Here's why:
 - To get a better understanding of next.js.
 - Getting use to using scss/sass with next.js
 - Creating a tool that will help me and other drivers do their job's in a more timely manner.
+- Showcase my understanding of the tech that I have implemented.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -30,15 +31,13 @@ Here's why:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-
 ## Roadmap
 
-- [ ] Finsish frontend design and styling
-- [ ] Add finishing touches to the styles
-- [ ]
-- [ ] Add a google auth
-- [ ]
+- [ ] Finsish frontend design and styling.
+- [ ] Get the first iteration of the tracker app working.
+- [ ] Set up supabase database.
+- [ ] Add a google auth and set up user profiles.
+- [ ] Start testing.
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -46,15 +45,11 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 ## Contact
 
-Willie morris
-
-Project Link:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Willie Morris
 
 ## Acknowledgments
 
-- sass docs
+- sass/scss docs
 - Next13 docs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

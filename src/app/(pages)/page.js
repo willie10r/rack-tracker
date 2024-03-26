@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from '../../styles/base.module.scss'
+import styleshome from '../../styles/home.module.scss'
 import FuelDriver from '../../../public/images/FuelDriver.jpg'
 import TruckatFuelRack from '../../../public/images/TruckatFuelRack.jpg'
 
 export default function Home() {
   return (
     <main>
-      <section>
+      <section className={styleshome.motoWrapper}>
         <h1>
           Rack Tracker
           </h1>
@@ -14,11 +15,11 @@ export default function Home() {
           Reducing down time with driver communicative real-time data.
           </p>
       </section>
-      <section>
+      <section className={styleshome.fisrtSection}>
         <Image
           alt="Guy filling fuel truck"
           src={FuelDriver}
-          
+          className={styleshome.mainImages}
         />
         <p>
           Rack Tracker will give your fleet of drivers a way to communicate with other drivers and dispatch
@@ -35,6 +36,7 @@ export default function Home() {
         <Image
           alt="Trck at the fuel rack"
           src={TruckatFuelRack}
+          className={styleshome.mainImages}
         />
         <p>
           Truck fueling racks are notorisly unreliable may it be mechanicale breaks or long lines due to
