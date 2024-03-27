@@ -1,0 +1,78 @@
+@import 'vars';
+
+.statusIndecatorsH {
+    margin: 4em auto auto auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.statusIndecators {
+    width: fit-content;
+    margin: 1em auto 2em auto;
+    text-align:left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.indecators {
+    margin: auto .5em auto .5em
+}
+.indiText {
+    margin: 1em auto 1em auto;
+}
+
+.title {
+    margin: 1em auto 2em auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.rackName {
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+.cardGroup {
+    display: flex;
+    flex-direction: row;
+    margin: auto .2em 2em .2em;
+    color: $lighttext;
+    font-size: 1em;
+}
+.eachCard {
+    height: 8em;
+    background-color: $secodary;
+    border-radius: 1em;
+    margin: auto .1em auto .1em;
+}
+.candt {
+    display: flex;
+    flex-direction: row;
+    margin: .6em auto .6em auto;
+}
+.iandn{
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto auto auto;
+}
+.indiLight {
+    margin: auto auto auto auto;
+}
+.time {
+    margin: auto auto auto auto;
+}
+.ini {
+    margin: auto .2em auto .2em;
+    background-color: $primary;
+    border-radius: 1em;
+    height: 2em;
+    width: 2em;
+}
+.note {
+    color: $darktext;
+    margin: auto auto auto auto;
+    border: .2em solid black ;
+    border-radius: .6em;
+    height: 4em;
+    background-color: $lighttext;
+}

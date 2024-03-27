@@ -11,10 +11,32 @@
 .dot {
     height: 15px;
     width: 15px;
-    background-color: green;
+    
     border-radius: 50%;
     display: inline-block;
   }
-    .removeDot {
-        list-style: none;
-    }
+  .green {
+    background-color: $lightGreen;
+  }
+  .blue {
+    background-color: $lightBlue;
+  }
+  .yellow {
+    background-color: $lightYellow;
+  }
+  .red {
+    background-color: $lightRed;
+  }
+  .black {
+    background-color: $lightBlack;
+  }
+  .orange {
+    background-color: $lightOrange;
+  }
+.removeDot {
+    list-style: none;
+}
+.paddingRemove {
+    padding: 0em;
+
+}
