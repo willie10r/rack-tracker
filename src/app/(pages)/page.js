@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <main>
       <section className={styleshome.mottoWrapper}>
-        <h1>
+        <h1 className={styleshome.mottoHeader}>
           Rack Tracker
-          </h1>
-        <p>
-          Reducing down time with driver communicative real-time data.
+        </h1>
+        <p className={styleshome.mottoText}>
+          &quot;Reducing down time with driver communicative real-time data.&quot;
           </p>
       </section>
       <section className={styleshome.fisrtSection}>

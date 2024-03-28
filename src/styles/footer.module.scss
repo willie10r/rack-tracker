@@ -10,6 +10,10 @@
     width: 100vw;
     position: static;
     bottom: 0em;
+    @media screen and (min-width:440px) {
+        margin-top: 8em;
+        font-size: 1.2em;
+    }
 }
 .cright {
     margin: auto auto auto .5em;

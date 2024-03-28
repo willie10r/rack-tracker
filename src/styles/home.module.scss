@@ -6,20 +6,40 @@
     font-weight: bolder;
     margin: 5em 1em auto 1em;
 }
+.mottoHeader {
+    @media screen and (min-width:601px) {
+        font-size:4em;
+    }
+}
+.mottoText {
+    @media screen and (min-width:601px) {
+        font-size:2em;
+    }
+}
 .firstSection {
     text-align: center;
     margin: auto 1em auto 1em;
+    @media screen and (min-width:601px) {
+        font-size:1.3em;
+    }
 }
 .mainImages {
     display: block;
    width: 20em;
    height: 10em; 
    margin: 1em auto;
+   @media screen and (min-width:601px) {
+    width: 34em;
+    height: 19em;
+}
    
 }
 .SectionText {
     text-align: center;
     margin: auto 1em 2em 1em;
+    @media screen and (min-width:601px) {
+        font-size:1.3em;
+    }
 }
 .buttonApp {
     display: block;
@@ -30,4 +50,9 @@
     background-color: $secodary;
     color: $lighttext;
     font-weight: bolder;
+    @media screen and (min-width:601px) {
+        font-size: 1.3em;
+        margin: auto auto 4em auto;
+    }
+  
 }
