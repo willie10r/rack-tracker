@@ -39,7 +39,7 @@ export default function Tracker() {
                     </li>
                 </ul>
             </section>
-            <section>
+            <section className={stylestracker.trackerSection}>
                 <h2 className={stylestracker.title}>
                     Status
                 </h2>

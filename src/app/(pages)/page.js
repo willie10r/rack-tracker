@@ -6,7 +6,7 @@ import TruckatFuelRack from '../../../public/images/TruckatFuelRack.jpg'
 
 export default function Home() {
   return (
-    <main>
+    <main className={styleshome.main}>
       <section className={styleshome.mottoWrapper}>
         <h1 className={styleshome.mottoHeader}>
           Rack Tracker

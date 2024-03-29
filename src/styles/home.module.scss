@@ -1,5 +1,11 @@
 @import 'vars';
 
+.main {
+    @media screen and (min-width:1290px) {
+        max-width: 1290px;
+        margin: auto auto;
+    }
+}
 .mottoWrapper {
     display: block;
     text-align: center;
@@ -37,9 +43,12 @@
 .SectionText {
     text-align: center;
     margin: auto 1em 2em 1em;
+    max-width: 800px;
     @media screen and (min-width:601px) {
         font-size:1.3em;
+         margin: auto auto;
     }
+  
 }
 .buttonApp {
     display: block;
