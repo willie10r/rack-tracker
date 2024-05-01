@@ -1,13 +1,11 @@
 import Image from "next/image";
-import styles from '../../styles/base.module.scss'
-import styleshome from '../../styles/home.module.scss'
-import FuelDriver from '../../../public/images/FuelDriver.jpg'
-import TruckatFuelRack from '../../../public/images/TruckatFuelRack.jpg'
-import { login, signup } from './actions'
+import styles from '../../../styles/base.module.scss'
+import styleshome from '../../../styles/home.module.scss'
+import FuelDriver from '../../../../public/images/FuelDriver.jpg'
+import TruckatFuelRack from '../../../../public/images/TruckatFuelRack.jpg'
 
 export default function Home() {
   return (
-
 
   
     <main className={styleshome.main}>
@@ -19,19 +17,6 @@ export default function Home() {
         <p className={styleshome.mottoText}>
           &quot;Reducing down time with driver communicative real-time data.&quot;
           </p>
-        <form>
-          <div>
-            <label htmlFor="email">Email:</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-          <div>
-            <label htmlFor="password">Password:</label>
-            <input id="password" name="password" type="password" required />
-          </div>
-          <button className={styleshome.buttonApp} formAction={login}>Log in</button>
-          <button className={styleshome.buttonApp} formAction={signup}>Sign up</button>
-          
-        </form>
       </section>
       <section className={styleshome.fisrtSection}>
         <Image
@@ -47,7 +32,21 @@ export default function Home() {
           to see. The more drivers use the app the more up to date and accurate your fleet can stay.
         </p>
       </section>
-     
+      <button className={styleshome.buttonApp}>
+        LogIn
+      </button>
+      <section>
+        <Image
+          alt="Trck at the fuel rack"
+          src={TruckatFuelRack}
+          className={styleshome.mainImages}
+        />
+        <p className={styleshome.SectionText}>
+          Truck fueling racks are notorisly unreliable may it be mechanicale breaks or long lines due to
+          the flux of fuel prices. A few times a year racks do meter proofing and it slows down the flow of
+          traffic in and out of the plant. Knowing when the proofing occurs can help drivers be more productive.
+        </p>
+      </section>
     </main>
   );
 }

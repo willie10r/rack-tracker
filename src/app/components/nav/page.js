@@ -8,7 +8,7 @@ export default function Nav() {
         <nav className={[stylesNav.navBase, stylesNav.stickyNav].join(' ')}>
         <h1 className={stylesNav.navTitle}>Rack Tracker</h1>
             <ul className={[styles.removeDot, stylesNav.navBase, stylesNav.navWrapper].join(' ')}>
-                <li className={stylesNav.navButtons}><Link href='/'>Home</Link></li>
+                <li className={stylesNav.navButtons}><Link href='/home'>Home</Link></li>
                 <li className={stylesNav.navButtons}><Link href='/tracker'>Tracker</Link></li>
                 <li className={stylesNav.navButtons}><Link href='/contact'>Contact Us</Link></li>
                 <li className={stylesNav.navButtons}><Link href=''>Sign-In</Link></li>
