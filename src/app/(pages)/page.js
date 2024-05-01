@@ -3,10 +3,15 @@ import styles from '../../styles/base.module.scss'
 import styleshome from '../../styles/home.module.scss'
 import FuelDriver from '../../../public/images/FuelDriver.jpg'
 import TruckatFuelRack from '../../../public/images/TruckatFuelRack.jpg'
+import { login, signup } from './actions'
 
 export default function Home() {
   return (
+
+
+  
     <main className={styleshome.main}>
+      
       <section className={styleshome.mottoWrapper}>
         <h1 className={styleshome.mottoHeader}>
           Rack Tracker
@@ -14,6 +19,14 @@ export default function Home() {
         <p className={styleshome.mottoText}>
           &quot;Reducing down time with driver communicative real-time data.&quot;
           </p>
+          <form>
+      <label htmlFor="email">Email:</label>
+      <input id="email" name="email" type="email" required />
+      <label htmlFor="password">Password:</label>
+      <input id="password" name="password" type="password" required />
+      <button formAction={login}>Log in</button>
+      <button formAction={signup}>Sign up</button>
+    </form>
       </section>
       <section className={styleshome.fisrtSection}>
         <Image
@@ -30,7 +43,7 @@ export default function Home() {
         </p>
       </section>
       <button className={styleshome.buttonApp}>
-        Rack Tracker app
+        LogIn
       </button>
       <section>
         <Image

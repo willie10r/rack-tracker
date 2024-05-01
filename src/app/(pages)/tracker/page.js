@@ -1,10 +1,42 @@
 import React from "react";
 import styles from '../../../styles/base.module.scss'
 import stylestracker from '../../../styles/tracker.module.scss'
+import { createClient } from '@supabase/supabase-js';
 
 
 
 export default function Tracker() {
+    
+    
+    
+    
+    // Initialize Supabase client
+const supabase = createClient('https://jxjeqlfbufbmdjgslmwe.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4amVxbGZidWZibWRqZ3NsbXdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ1MTI5NTUsImV4cCI6MjAzMDA4ODk1NX0.qce3sdc9I2MvkctMx36teygWd-9G1pp27xU8PJfcY_U');
+
+// Fetch data from a table
+async function fetchData() {
+  try {
+    // Specify the table and columns you want to fetch
+    const { data, error } = await supabase
+      .from('racks')
+      .select('*');
+
+    if (error) {
+      console.error('Error fetching data:', error.message);
+      return;
+    }
+    let name = data.length;
+
+    // Process the retrieved data
+    console.log('Retrieved data:', name);
+  } catch (error) {
+    console.error('Error fetching data:', error.message);
+  }
+}
+
+fetchData();
+ 
+
 
     return(
         <main >
